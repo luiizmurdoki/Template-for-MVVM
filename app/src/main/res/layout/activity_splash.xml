@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCustom">
+
+    <ImageView
+    android:layout_width="@dimen/custom_width"
+        android:layout_height="@dimen/custom_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/custom_margin_top"
+        android:src="@drawable/ic_android"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="@dimen/custom_text_margin_top"
+        android:text="@string/From"
+        android:textColor="@color/colorFrom"
+        android:textSize="@dimen/custom_text_size"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="@dimen/custom_author_margin_top"
+        android:textAllCaps="true"
+        android:textSize="@dimen/custom_text_title_size"
+        android:text="@string/Author"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>
