@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="custom_width" >100dp</dimen>
-    <dimen name="custom_height" >100dp</dimen>
-    <dimen name="custom_margin_top" >200dp</dimen>
+    <dimen name="custom_width" >400dp</dimen>
+    <dimen name="custom_height" >400dp</dimen>
+    <dimen name="custom_margin_top" >300dp</dimen>
     <dimen name="custom_text_margin_top" >350dp</dimen>
     <dimen name="custom_author_margin_top" >15dp</dimen>
     <dimen name="custom_text_title_size" >18dp</dimen>
